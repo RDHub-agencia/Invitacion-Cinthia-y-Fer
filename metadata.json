@@ -1,0 +1,6 @@
+{
+  "name": "Invitación de Casamiento - Cinthia y Fernando",
+  "description": "Invitación interactiva y elegante estilo One-Page scroll para la boda de Cinthia y Fernando el 13 de diciembre de 2026.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
