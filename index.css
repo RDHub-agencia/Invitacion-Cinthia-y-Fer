@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-script {
+    font-family: 'Alex Brush', cursive;
+  }
+  .font-serif-wedding {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+  .font-display-wedding {
+    font-family: 'Playfair Display', serif;
+  }
+  .font-sans-wedding {
+    font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom delicate scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.4);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(217, 178, 114, 0.35);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(217, 178, 114, 0.6);
+}
